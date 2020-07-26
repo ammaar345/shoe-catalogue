@@ -1,0 +1,20 @@
+body{
+background-color: lightseagreen;
+
+}
+.shoeColor:hover{background-color: cadetblue;}
+.shoeSize:hover{background-color: cadetblue;}
+.btnSearch{background-color: 
+    lavender;}
+    .btnSearch:active{background-color: lavenderblush;}
+    .btnSearch:hover{
+        background-color: lightblue;
+    }
+    .btnSearch{
+        width: 6em;
+        border-radius: 0.6em;
+    }
+    select{
+width: 6em;
+
+    }
