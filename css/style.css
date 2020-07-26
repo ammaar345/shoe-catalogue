@@ -1,9 +1,16 @@
 body{
 background-color: lightseagreen;
-
+text-align: left;
 }
+.ri{padding-left: 1.7em;}
+.le{padding-left:0.9em;}
+.space{padding: 0.5em;}
+label{padding: 1em;
+text-align: left;
+padding-left: 1em;}
 .shoeColor:hover{background-color: cadetblue;}
 .shoeSize:hover{background-color: cadetblue;}
+.shoeBrand:hover{background-color: cadetblue;}
 .btnSearch{background-color: 
     lavender;}
     .btnSearch:active{background-color: lavenderblush;}
@@ -13,8 +20,11 @@ background-color: lightseagreen;
     .btnSearch{
         width: 6em;
         border-radius: 0.6em;
+        background-color: dodgerblue;
     }
     select{
-width: 6em;
 
+        width: 7em;
+
+background-color: darkkhaki;
     }

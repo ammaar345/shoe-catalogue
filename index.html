@@ -11,14 +11,20 @@
 <body>
     <div class="container">
         <div class="row">
+        <div class="row">
             <div class="center">
     <h1>Shoe Catalogue</h1>
 </div>
 </div>
-<div class="row center">
-    <div class="col-10">
-<select name="color" class="shoeColor">
-<option value="">All</option>
+<div class="row ">
+    <!-- <div class="col-6"> 
+</div> -->
+    <div class="center col-6 space ri"> 
+        
+    <label for="color">Shoe color :</label>                                                                                
+<select name="color" class="shoeColor" id="color">
+<!-- <option value="">All</option> -->
+
 <option value="red">Red</option>
 <option value="white">White</option>
 <option value="black">Black</option>
@@ -27,10 +33,15 @@
 </select>
 </div>
 </div>
-<div class="row center">
-    <div class="col-10">
-<select name="size" class="shoeSize">
-  <option value="">All</option>  
+<div class="row ">
+   <!-- <div class="col-6">
+</div> -->
+    <div class="center col-6 space ">
+         
+<label for="shoeSize"class="center ri">Shoe size  :</label>
+  <select name="size" class="shoeSize">
+  <!-- <option value="">All</option>   -->
+ 
 <option value="1">5</option>
 <option value="2">6</option>
 <option value="3">7</option>
@@ -39,14 +50,34 @@
 </select>
 </div>
 </div>
+<div class="row ">
+    
+<!--    
+    <div class="col-6">
+         </div> -->
+        <div class="center col-6 space ">
+            <label for="brand" class="center le">Shoe brand :</label> 
+            <select name="brand" class="shoeBrand" >
+<option value="1">Adidas</option>
+<option value="2">Nike</option>
+<option value="3">Levis</option>
+<option value="4">Polo</option>
+<option value="5">Reebok</option>
+</select>        
+    </div>
+    
 <div class="row center">
-    <div class="col-10">
-    <input type="button" class="btnSearch" value="Search">
+    <div class="col-12 space">
+    <input type="button" class="btnSearch " value="Search">
 </div>
+</div>
+
+
 </div>
 <div class="row center">
     <p>         </p>
 </div>
+
 </div>
 </body>
 </html>
