@@ -4,26 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-<link rel="stylesheet" href="css/simple-grid.css">
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap-grid.css">
+<link rel="stylesheet" href="css/bootstrap.css">
     <title>Shoe Catalogue</title>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-        <div class="row">
-            <div class="center">
+      
     <h1>Shoe Catalogue</h1>
-</div>
-</div>
-<div class="row ">
-    <!-- <div class="col-6"> 
-</div> -->
-    <div class="center col-6 space ri"> 
-        
-    <label for="color">Shoe color :</label>                                                                                
-<select name="color" class="shoeColor" id="color">
-<!-- <option value="">All</option> -->
+
+    <div class="row"> 
+        <div class="col-sm">
+    <label for="color">Color :</label>                                                                                
+<select name="color" class="shoeColor " id="color">
+
 
 <option value="red">Red</option>
 <option value="white">White</option>
@@ -31,17 +26,20 @@
 <option value="blue">Blue</option>
 <option value="grey">Grey</option>
 </select>
+    </div>
+    <div class="col-sm">
+   
+        <label for="colorEdit">Color:</label>
+        <input type="text"  class="colorEdit" >
+    </div>
 </div>
-</div>
-<div class="row ">
-   <!-- <div class="col-6">
-</div> -->
-    <div class="center col-6 space ">
-         
-<label for="shoeSize"class="center ri">Shoe size  :</label>
+
+
+
+    <div class=" row">
+        <div class="col-sm"> 
+<label for="shoeSize"class="shoeSize">Size :</label>
   <select name="size" class="shoeSize">
-  <!-- <option value="">All</option>   -->
- 
 <option value="1">5</option>
 <option value="2">6</option>
 <option value="3">7</option>
@@ -49,35 +47,47 @@
 <option value="5">9</option>
 </select>
 </div>
-</div>
-<div class="row ">
+<div class="col-sm">
     
-<!--    
-    <div class="col-6">
-         </div> -->
-        <div class="center col-6 space ">
-            <label for="brand" class="center le">Shoe brand :</label> 
+    <label for="size" class="ri">Size :</label><input type="text" class="size">
+
+</div>
+</div>
+
+        <div class=" row">
+           <div class="col-sm">
+            <label for="brand" class="brand">Brand :</label> 
             <select name="brand" class="shoeBrand" >
 <option value="1">Adidas</option>
 <option value="2">Nike</option>
 <option value="3">Levis</option>
 <option value="4">Polo</option>
 <option value="5">Reebok</option>
-</select>        
-    </div>
-    
-<div class="row center">
-    <div class="col-12 space">
+</select>   
+        </div>
+<div class="col-sm ">
+    <label for="brand">Brand :</label>
+    <input type="text" class="brand">
+</div>
+</div>    
+
+    <div class="row">
+        <div class="col-sm">
+            
     <input type="button" class="btnSearch " value="Search">
-</div>
-</div>
-
-
-</div>
-<div class="row center">
-    <p>         </p>
+        </div>
+        <div class="col-sm"><input type="button" name="btnAdd" value="Add"class="btnAdd">
+        </div>
+    
 </div>
 
+
+    
+
+
+
+ 
 </div>
+
 </body>
 </html>

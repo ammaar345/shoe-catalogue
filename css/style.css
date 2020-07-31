@@ -1,13 +1,16 @@
 body{
 background-color: lightseagreen;
-text-align: left;
+
 }
-.ri{padding-left: 1.7em;}
-.le{padding-left:0.9em;}
-.space{padding: 0.5em;}
-label{padding: 1em;
-text-align: left;
-padding-left: 1em;}
+h1{text-align: center;}
+label{width: 7em;
+    padding: 1em;
+    display: inline-block;
+text-align: 
+left;}
+input[type="text"]{width: 7em;
+    height:1.7em;
+; }
 .shoeColor:hover{background-color: cadetblue;}
 .shoeSize:hover{background-color: cadetblue;}
 .shoeBrand:hover{background-color: cadetblue;}
@@ -23,7 +26,7 @@ padding-left: 1em;}
         background-color: dodgerblue;
     }
     select{
-
+height: 1.7;
         width: 7em;
 
 background-color: darkkhaki;
