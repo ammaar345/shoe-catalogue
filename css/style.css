@@ -1,25 +1,36 @@
 body{
-background-color: lightseagreen;
+background-color: magenta;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btnAdd{
+background-color: lightslategrey;
+width: 6em;
 
 }
+.ri{padding-right: 20e;}
 h1{text-align: center;}
 label{width: 7em;
-    padding: 1em;
+    padding: 0.3em;
     display: inline-block;
 text-align: 
 left;}
+.padd{padding-bottom: 1.6em;}
 input[type="text"]{width: 7em;
     height:1.7em;
 ; }
-.shoeColor:hover{background-color: cadetblue;}
-.shoeSize:hover{background-color: cadetblue;}
-.shoeBrand:hover{background-color: cadetblue;}
+.shoeColor:hover{background-color: whitesmoke;}
+.shoeSize:hover{background-color: whitesmoke;}
+.shoeBrand:hover{background-color: whitesmoke;}
+.btnAdd:hover{
+    background-color: tomato;
+}
 .btnSearch{background-color: 
     lavender;}
     .btnSearch:active{background-color: lavenderblush;}
     .btnSearch:hover{
         background-color: lightblue;
     }
+   
     .btnSearch{
         width: 6em;
         border-radius: 0.6em;
@@ -29,5 +40,5 @@ input[type="text"]{width: 7em;
 height: 1.7;
         width: 7em;
 
-background-color: darkkhaki;
+background-color: violet;
     }
